@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(213, 207, 207);
+}
+.container{
+    margin: 20px auto;
+    background: slategray;
+}
+#global{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+.main-navigation{
+    padding: 10px;
+    background-color: rgb(30, 27, 27);
+    height:50px;
+    overflow: hidden;
+}
+.main-navigation ul{
+    list-style: none;
+    text-align: right;
+    margin: -5px;
+    float: left;
+}
+.main-navigation ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.main-navigation ul li a{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration:none;
+    padding:10px;
+}
+.main-navigation ul li a.button{
+    background: rgb(0, 221, 255);
+    border-radius: 4px;
+}
+.lead-banner img{
+    width: 100%;
+}
+
+.shop img{
+margin: 10px 30%;
+}
+.shop h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+.shop span{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 42%;
+    font-size: 51px;
+}
+.shop a{
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px 39%;
+    display: inline-block;
+}
+.shop .stars{
+    margin: 20px 45%;
+}
+.footer img{
+    width: 100px;
+}
